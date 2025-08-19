@@ -13,24 +13,24 @@ For example, `3.12-alpine3.20` indicates Python 3.12 on Alpine Linux 3.20.
 ## Supported Tags and `Dockerfile` Links
 
 - `3.13`
-  - [`3.13-alpine3.20`]()
-  - [`3.13-alpine3.21`]()
-  - [`3.13-alpine3.22`]()
+  - [`3.13-alpine3.20`](https://github.com/degagne/docker-aws-cli/3.13/)
+  - [`3.13-alpine3.21`](https://github.com/degagne/docker-aws-cli/3.13/)
+  - [`3.13-alpine3.22`](https://github.com/degagne/docker-aws-cli/3.13/)
 
 - `3.12`
-  - [`3.12-alpine3.20`]()
-  - [`3.12-alpine3.21`]()
-  - [`3.12-alpine3.22`]()
+  - [`3.12-alpine3.20`](https://github.com/degagne/docker-aws-cli/3.12/)
+  - [`3.12-alpine3.21`](https://github.com/degagne/docker-aws-cli/3.12/)
+  - [`3.12-alpine3.22`](https://github.com/degagne/docker-aws-cli/3.12/)
 
 - `3.11`
-  - [`3.11-alpine3.20`]()
-  - [`3.11-alpine3.21`]()
-  - [`3.11-alpine3.22`]()
+  - [`3.11-alpine3.20`](https://github.com/degagne/docker-aws-cli/3.11/)
+  - [`3.11-alpine3.21`](https://github.com/degagne/docker-aws-cli/3.11/)
+  - [`3.11-alpine3.22`](https://github.com/degagne/docker-aws-cli/3.11/)
 
 - `3.10`
-  - [`3.10-alpine3.20`]()
-  - [`3.10-alpine3.21`]()
-  - [`3.10-alpine3.22`]()
+  - [`3.10-alpine3.20`](https://github.com/degagne/docker-aws-cli/3.10/)
+  - [`3.10-alpine3.21`](https://github.com/degagne/docker-aws-cli/3.10/)
+  - [`3.10-alpine3.22`](https://github.com/degagne/docker-aws-cli/3.10/)
 
 ## Usage
 
