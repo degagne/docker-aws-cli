@@ -1,0 +1,34 @@
+services:
+
+  aws-cli-3.12-alpine3.20:
+    image: ddegagne/aws-cli:3.12-alpine3.20
+    build:
+      provenance: true
+      sbom: true
+      context: ..
+      dockerfile: 3.12/Dockerfile
+      args:
+        - DISTRO_VERSION=3.20
+        - CA_CERTIFICATE=https://mkcert.org/generate
+
+  aws-cli-3.12-alpine3.21:
+    image: ddegagne/aws-cli:3.12-alpine3.21
+    build:
+      provenance: true
+      sbom: true
+      context: ..
+      dockerfile: 3.12/Dockerfile
+      args:
+        - DISTRO_VERSION=3.21
+        - CA_CERTIFICATE=https://mkcert.org/generate
+
+  aws-cli-3.12-alpine3.22:
+    image: ddegagne/aws-cli:3.12-alpine3.22
+    build:
+      provenance: true
+      sbom: true
+      context: ..
+      dockerfile: 3.12/Dockerfile
+      args:
+        - DISTRO_VERSION=3.22
+        - CA_CERTIFICATE=https://mkcert.org/generate
