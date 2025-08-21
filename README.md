@@ -1,5 +1,7 @@
 # Amazon Web Services Command-Line Interface (CLI) for Python
 
+[![Docker Build and Push](https://github.com/degagne/docker-aws-cli/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/degagne/docker-aws-cli/actions/workflows/docker-ci.yml)
+
 This Docker image provides a lightweight environment for running the AWS CLI with Python and Alpine Linux.
 It includes the functionality to integrate custom CA certificates, making it suitable for environments
 that require specific CA trust stores.
