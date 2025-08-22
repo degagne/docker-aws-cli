@@ -39,19 +39,19 @@ For example, `3.12-alpine3.20` indicates Python 3.12 on Alpine Linux 3.20.
 To use this Docker image, you can pull it from the Docker registry:
 
 ```bash
-docker pull ddegagne/aws-cli-python:3.13-alpine3.22
+docker pull ddegagne/aws-cli:3.13-alpine3.22
 ```
 
 You can then run the AWS CLI commands using the following command:
 
 ```bash
-docker run --rm -it ddegagne/aws-cli-python:3.13-alpine3.22 /usr/bin/aws --version
+docker run --rm -it ddegagne/aws-cli:3.13-alpine3.22 /usr/bin/aws --version
 ```
 
 You can also utilize the AWS CLI with your AWS credentials by mounting your credentials file:
 
 ```bash
-docker run --rm -it -v ~/.aws:/root/.aws ddegagne/aws-cli-python:3.13-alpine3.22 /usr/bin/aws --profile UAT s3 ls
+docker run --rm -it -v ~/.aws:/root/.aws ddegagne/aws-cli:3.13-alpine3.22 /usr/bin/aws --profile UAT s3 ls
 ```
 
 ## Custom CA Certificates
